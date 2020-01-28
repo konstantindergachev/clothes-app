@@ -1,0 +1,43 @@
+@import '../../scss/mixins.scss';
+
+.contact {
+  &-page {
+    flex: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    @include deskfirst(1060) {
+      justify-content: space-between;
+    }
+    @include deskfirst(960) {
+      flex-direction: column;
+    }
+    &__left {
+      @include deskfirst(960) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include deskfirst(600) {
+        max-width: 400px;
+      }
+    }
+    &__right {
+      iframe {
+        width: 600px;
+        height: 450px;
+        border: none;
+        -webkit-frame-border: none;
+        @include deskfirst(600) {
+          width: 340px;
+        }
+      }
+    }
+  }
+  &__subtitle {
+    margin-bottom: 10px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+}

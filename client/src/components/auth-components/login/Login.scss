@@ -1,0 +1,21 @@
+@import '../../../scss/mixins.scss';
+
+.sign-in {
+  width: 30vw;
+  text-align: justify;
+  @include deskfirst(680) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title {
+    margin: 10px 0;
+  }
+}
+.signin-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.error-label__common {
+  margin-bottom: 45px;
+  text-align: center;
+}

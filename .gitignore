@@ -1,0 +1,7 @@
+/client/node_modules
+/client/src/config
+/client/yarn.lock
+
+/node_modules
+.env
+yarn.lock

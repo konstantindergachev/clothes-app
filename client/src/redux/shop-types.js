@@ -1,0 +1,6 @@
+export const TYPES = {
+  SHOP_LOADING: 'SHOP_LOADING',
+  GET_SHOP: 'GET_SHOP',
+  SET_SHOP: 'SET_SHOP',
+  ERRORS: 'ERRORS',
+};

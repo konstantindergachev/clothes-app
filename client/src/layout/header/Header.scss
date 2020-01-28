@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  flex-shrink: 0;
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+
+    flex-grow: 0.5;
+    text-align: right;
+    .option:not(:last-child) {
+      margin-right: 15px;
+    }
+    .option__name {
+      background-color: #4285f4;
+      color: #ffffff;
+      padding: 0 5px;
+      text-align: center;
+    }
+    .option__cart {
+      cursor: pointer;
+    }
+  }
+}
+
+.logo-container {
+  flex-grow: 0.5;
+  margin-left: auto;
+}

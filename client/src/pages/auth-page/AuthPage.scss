@@ -1,0 +1,13 @@
+@import '../../scss/mixins.scss';
+
+.sign-in-and-sign-up {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: auto;
+  margin-bottom: 20px;
+  @include deskfirst(680) {
+    flex-direction: column;
+    align-items: center;
+  }
+}

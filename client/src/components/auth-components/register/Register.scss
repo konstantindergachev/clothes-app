@@ -1,0 +1,12 @@
+@import '../../../scss/mixins.scss';
+
+.sign-up {
+  width: 30vw;
+  @include deskfirst(680) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title {
+    margin: 10px 0;
+  }
+}

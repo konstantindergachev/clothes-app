@@ -1,0 +1,12 @@
+@import '../../../scss/mixins.scss';
+
+.test-warning {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: #ff0000;
+  @include deskfirst(520) {
+    margin-top: 20px;
+  }
+}
