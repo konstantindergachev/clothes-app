@@ -18,23 +18,23 @@
         grid-template-columns: repeat(2, 1fr);
       }
       @include deskfirst(600) {
-        max-width: 400px;
+        max-width: 25rem;
       }
     }
     &__right {
       iframe {
-        width: 600px;
-        height: 450px;
+        width: 37.5rem;
+        height: 28.125rem;
         border: none;
         -webkit-frame-border: none;
         @include deskfirst(600) {
-          width: 340px;
+          width: 21.25rem;
         }
       }
     }
   }
   &__subtitle {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   &__link {
     display: flex;

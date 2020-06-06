@@ -6,16 +6,16 @@
 .lds-ring {
   display: inline-block;
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
 }
 .lds-ring div {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 74px;
-  height: 74px;
-  margin: 8px;
+  width: 4.625rem;
+  height: 4.625rem;
+  margin: 0.5rem;
   border: 5px solid #404040;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;

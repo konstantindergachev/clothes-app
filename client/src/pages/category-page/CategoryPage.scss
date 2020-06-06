@@ -3,11 +3,11 @@
 .category-page {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   flex: auto;
   .title {
-    font-size: 38px;
-    margin: 0 auto 30px;
+    font-size: 2.375rem;
+    margin: 0 auto 1.875rem;
   }
 
   .items {
@@ -16,7 +16,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     & .collection-item {
-      margin-bottom: 30px;
+      margin-bottom: 1.875rem;
     }
   }
 }

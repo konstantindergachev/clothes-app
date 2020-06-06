@@ -4,9 +4,9 @@
   width: 30vw;
   @include deskfirst(680) {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .title {
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 }

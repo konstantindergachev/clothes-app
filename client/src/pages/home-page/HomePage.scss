@@ -4,9 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 80px;
+  padding: 1.25rem 5rem;
   flex: auto;
   @include deskfirst(760) {
-    padding: 5px;
+    padding: 0.3125rem;
   }
 }

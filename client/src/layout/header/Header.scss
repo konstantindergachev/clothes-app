@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
   flex-shrink: 0;
   .options {
     display: flex;
@@ -15,12 +15,12 @@
     flex-grow: 0.5;
     text-align: right;
     .option:not(:last-child) {
-      margin-right: 15px;
+      margin-right: 0.9375rem;
     }
     .option__name {
       background-color: #4285f4;
       color: #ffffff;
-      padding: 0 5px;
+      padding: 0 0.3125rem;
       text-align: center;
     }
     .option__cart {

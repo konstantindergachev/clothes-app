@@ -5,7 +5,7 @@
   align-items: flex-start;
   justify-content: space-between;
   flex: auto;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   @include deskfirst(680) {
     flex-direction: column;
     align-items: center;

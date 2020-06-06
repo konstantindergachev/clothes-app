@@ -6,12 +6,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px auto 0;
+  margin: 3.125rem auto 0;
   flex: auto;
   @include deskfirst(760) {
     width: 90%;
     min-height: 100vh;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .cart-header {
@@ -32,8 +32,8 @@
   }
 
   .total {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     margin-left: auto;
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }

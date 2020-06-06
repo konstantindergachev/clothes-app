@@ -4,10 +4,10 @@
   width: 22vw;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 21.875rem;
   align-items: center;
   position: relative;
-  margin: 10px 2px;
+  margin: 0.625rem 0.125rem;
   @include deskfirst(1260) {
     width: 28vw;
   }
@@ -26,14 +26,14 @@
     height: 95%;
     background-size: cover;
     background-position: center;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   .btn {
     width: 80%;
     opacity: 0.7;
     position: absolute;
-    top: 255px;
+    top: 15.9375rem;
     display: none;
     @include deskfirst(530) {
       display: block;
@@ -58,15 +58,15 @@
     height: 5%;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 1.125rem;
 
     @include deskfirst(530) {
-      margin-bottom: 15px;
+      margin-bottom: 0.9375rem;
     }
 
     .name {
       width: 90%;
-      margin-bottom: 15px;
+      margin-bottom: 0.9375rem;
     }
 
     .price {
